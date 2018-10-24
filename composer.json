@@ -6,7 +6,7 @@
         "magento/module-widget": "101.0.*",
         "magento/module-catalog": "102.0.*"
     },
-    "description": "Update magento 2 widget layout options for adding CMS Page Link by Attribute sets",
+    "description": "Magento 2 Extension for update widget layout options by Attribute set",
     "license": "OSL-3.0",
     "homepage": "https://github.com/WiseDevCompany/WLUByAttrSet",
     "minimum-stability": "dev",
