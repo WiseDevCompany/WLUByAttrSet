@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xs d">
-    <module name="Wise_WidgetLayoutUpdatesByAttributeSet" setup_version="1.1.1">
+    <module name="Wise_WidgetLayoutUpdatesByAttributeSet" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Widget"/>
         </sequence>
