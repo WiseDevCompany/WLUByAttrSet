@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Widget\Block\Adminhtml\Widget\Instance\Edit\Tab\Main\Layout" type="Wise\WidgetLayoutUpdatesByAttributeSet\Block\Adminhtml\Widget\Instance\Edit\Tab\Main\Layout" />
+    <preference for="Magento\Widget\Model\Widget\Instance" type="Wise\WidgetLayoutUpdatesByAttributeSet\Model\Widget\Instance" />
+    <type name="Magento\Catalog\Helper\Product\View">
+        <plugin disabled="false"
+                name="Wise_WidgetLayoutUpdatesByAttributeSet_Plugin_PageLayoutHandlesPlugin"
+                sortOrder="10"
+                type="Wise\WidgetLayoutUpdatesByAttributeSet\Plugin\PageLayoutHandlesPlugin"/>
+    </type>
+</config>
